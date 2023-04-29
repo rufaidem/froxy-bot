@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;800&display=swap" rel="stylesheet"> 
+    <title>🤖 Froxy Bot</title>
+</head>
+
+<body>
+    <div class="nav">
+        <h3>🤖 Froxy Bot</h3>
+    </div>
+    <div class="status">
+        <p>✅ All Systems Operational</p>
+    </div>
+
+    <div class="centerContainer">
+        <div class="card">
+            <h1>{{records}}</h1>
+            <h3>Records</h3>
+        </div>
+
+        <div class="card">
+            <h1>{{tables}}</h1>
+            <h3>Tables</h3>
+        </div>
+
+        <div class="footer">
+        <a href="https://github.com/akshayitzme/froxy-bot" target="_blank">
+            <img src="https://img.icons8.com/ios-glyphs/50/000000/github.png"/>
+        </a>
+    </div>
+    </div>
+</body>
+
+</html>
+
+<style>
+    body {
+        height: 100%;
+        width: 100%;
+        margin: 0px 0px;
+        padding: 0px 0px;
+        background-color: #EEF2FF;
+        font-family: 'Roboto Slab', serif;
+    }
+
+    .nav {
+        display: flex;
+        background-color: #7900FF;
+        height: 25vh;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+    }
+
+    .nav>h3 {
+        font-size: 30px;
+        text-align: center;
+        color: #fff;
+
+    }
+
+    .status {
+        display: flex;
+        justify-content: center;
+    }
+
+    .status>p {
+        background: #A6CF98;
+        border-radius: 6px;
+        padding: 10px;
+        color: #064420;
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+    }
+
+    .centerContainer {
+        margin-top: 15vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .card {
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+        padding: 20px 30px;
+        border-radius: 10px;
+    }
+
+    .card>h1 {
+        text-align: center;
+        font-weight: 800;
+        color: #7900FF;
+    }
+
+    .card>h3 {
+        font-weight: 800;
+    }
+
+    .footer {
+        position: fixed; 
+        right: 0px;
+        bottom: 0px;
+    }
+
+    .footer > a >img{
+        width: 35px;
+    }
+</style>
